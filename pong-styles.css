@@ -17,7 +17,7 @@ body {
 }
 
 #left-paddle {
-  background-color: green;
+  background-color: teal;
   left: 10px;
   height: 25px;
 }
