@@ -52,15 +52,15 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("pongsoundscore.mp3");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("PONGMusic.mp3");
+export var ambientSound = new soundFile();
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
-ambientSound.player.volume.value = 20; //turn down volume
+ambientSound.player.volume.value = -20; //turn down volume
 
-export var adventureMusic = new soundFile();
+export var adventureMusic = new soundFile("PONGMusic.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
-adventureMusic.player.volume.value = -1;
+adventureMusic.player.volume.value = 15;
 
 export var villageMusic = new soundFile();
 soundArray.push(villageMusic);
