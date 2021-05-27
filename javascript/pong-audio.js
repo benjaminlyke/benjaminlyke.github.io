@@ -62,7 +62,7 @@ soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
 adventureMusic.player.volume.value = 15;
 
-export var villageMusic = new soundFile();
+export var villageMusic = new soundFile("PONGMusic.mp3");
 soundArray.push(villageMusic);
 villageMusic.player.loop = true;
-villageMusic.player.volume.value = -16;
+villageMusic.player.volume.value = 15;
